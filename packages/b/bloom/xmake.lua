@@ -6,7 +6,7 @@ package("bloom")
     add_urls("https://github.com/wirespider87/bloom/archive/refs/tags/v$(version).tar.gz",
              "https://github.com/wirespider87/bloom.git")
 
-    add_versions("1.0.1", "72f446e270816bfa91a874f7c5dc6acc5bc24654da45752cf1e4509a9b82d1d2")
+    add_versions("1.0.2", "d8bbdcc533d4926d02892507e19daeec9c87c2534de41e45ddc89ff12d516179")
 
     add_configs("shared", {description = "Build shared library.", default = false, type = "boolean"})
     add_configs("opengl", {description = "Build OpenGL backend.", default = true, type = "boolean"})
