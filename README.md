@@ -15,7 +15,7 @@ add_repositories("bloom-packages https://github.com/wirespider87/bloom-packages.
 add_requires("bloom VERSION")
 ```
 
-Replace `VERSION` with the semver you want (for example `1.0.4`). Tags on Bloom are named `vX.Y.Z`; in `add_requires` use `X.Y.Z` without the `v`.
+Replace `VERSION` with the semver you want (for example `1.0.4`). Tags on bloom are named `vX.Y.Z`; in `add_requires` use `X.Y.Z` without the `v`.
 
 Bloom source lives here:
 
