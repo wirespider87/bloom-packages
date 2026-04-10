@@ -3,10 +3,16 @@ package("bloom")
     set_description("Immediate-mode GUI library for Windows overlays, tools, and internal apps")
     set_license("0BSD")
 
-    add_urls("https://github.com/wirespider87/bloom/archive/refs/tags/v$(version).tar.gz",
-             "https://github.com/wirespider87/bloom.git")
+    add_urls("https://github.com/wirespider87/bloom/archive/refs/tags/v$(version).tar.gz")
+    add_urls("github:wirespider87/bloom.git", {alias = "github", submodules = false})
 
     add_versions("1.0.2", "d8bbdcc533d4926d02892507e19daeec9c87c2534de41e45ddc89ff12d516179")
+    add_versions("1.0.3", "dd5dc536c350947612a338bc1b5d76965c26b9515934a3646dfa0849052eacff")
+    add_versions("1.0.4", "4bbff9a7e1f90320fcbb4d14e7cd2fe8136dcf95603d80d62e74304fdf80bf2e")
+
+    add_versions("github:1.0.2", "v1.0.2")
+    add_versions("github:1.0.3", "v1.0.3")
+    add_versions("github:1.0.4", "v1.0.4")
 
     add_configs("shared", {description = "Build shared library.", default = false, type = "boolean"})
     add_configs("opengl", {description = "Build OpenGL backend.", default = true, type = "boolean"})
