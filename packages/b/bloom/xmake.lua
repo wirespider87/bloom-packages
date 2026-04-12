@@ -4,7 +4,6 @@ package("bloom")
     set_license("0BSD")
 
     add_urls("https://github.com/wirespider87/bloom/archive/refs/tags/v$(version).tar.gz")
-    -- Full https:// URL so git never sees a raw `github:...` string (that form is parsed as SSH host "github").
     add_urls("https://github.com/wirespider87/bloom.git", {alias = "github", submodules = false})
 
     add_versions("1.0.2", "d8bbdcc533d4926d02892507e19daeec9c87c2534de41e45ddc89ff12d516179")
