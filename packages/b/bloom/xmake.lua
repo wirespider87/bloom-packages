@@ -16,7 +16,6 @@ package("bloom")
     add_versions("github:1.0.3", "v1.0.3")
     add_versions("github:1.0.4", "v1.0.4")
     add_versions("github:1.0.5", "v1.0.5")
-    add_versions("github:1.0.6", "v1.0.6")
 
     add_configs("shared", {description = "Build shared library.", default = false, type = "boolean"})
     add_configs("opengl", {description = "Build OpenGL backend.", default = true, type = "boolean"})
