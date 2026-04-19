@@ -10,7 +10,7 @@ package("bloom")
     add_versions("1.0.3", "dd5dc536c350947612a338bc1b5d76965c26b9515934a3646dfa0849052eacff")
     add_versions("1.0.4", "4bbff9a7e1f90320fcbb4d14e7cd2fe8136dcf95603d80d62e74304fdf80bf2e")
     add_versions("1.0.5", "850906224eba089d33ff83ed36bfa95706021e742cf1c74907573124aa2c5002")
-    add_versions("1.0.6", "80434f39764f44225db1fbc2599a41b7012447d6d3e4d67319eae1c0a62d22c5"))
+    add_versions("1.0.6", "80434f39764f44225db1fbc2599a41b7012447d6d3e4d67319eae1c0a62d22c5")
 
     add_versions("github:1.0.2", "v1.0.2")
     add_versions("github:1.0.3", "v1.0.3")
